@@ -1,0 +1,13 @@
+# take python as a calculater
+i = 22
+x = 11
+j = 2
+print "i=22,x=11"
+print "j=",j
+print "i+x=", i+x
+print "i-x=", i-x
+print "i*j=", i*j
+print "i/j=", i/j
+print "i%x=", i%x
+print "j+i+x=", j+i+x
+print "x*x-x=", x*x-x
