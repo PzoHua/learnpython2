@@ -1,6 +1,6 @@
 # this one is like your scripts with argv
 def print_two(*args):
-    arg1, arg2 = args
+    arg1, arg2 = args   #不一定要用4个空格，有空格就行，且下面的内容要与首个空格相对应
     print "arg1: %r, arg2: %r" % (arg1, arg2)
 	
 # ok, that *args is actually pointless, we can just do this
