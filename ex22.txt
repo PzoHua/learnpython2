@@ -1,0 +1,42 @@
+#回顾学到的所有东西
+笨办法更简单
+  做每一道习题
+  一字不差地写出每一个程序
+  让程序运行起来
+------------------------------------------------------------------------
+0.准备工作
+    1). 写出习题的代码，在 Linux 下用 gedit，OSX 下用 TextWrangler，
+Windows 下用 Notepad++。
+	2). 运行你写的习题。
+	3). 修改错误的地方。 
+	4). 重复上述步骤。 其他的事情只会让你更困惑，所以还是坚持按计划进行吧。
+1.print
+2.comment octothorpe or pound character
+3.plus+  minus- slash/  asterisk*  percent%  less-than<  greater-tha>
+  less-than-equal<=  >=greater-than-equal
+4.variable
+5.# -*- coding: utf-8 -*-
+6.string parenthesis  raw data  debug
+  TypeError:not all arguments converted during string fromatting
+7.print "." * 10
+8.%r  %s  formatter  representation
+9.stuff  \n  """ 
+10.\n(back-slash n)  escape sequences   double back-slash   triple-quotes
+  \\(Backslash)  \'(Single quote) \"(Double quote)  \a(ASCLL Bell )
+  \b(ASCLL Backspace)  \f(ASCLL Formfeed)  \n(ASCLL Linefeed)
+  \N{{name}   \r ASCLL  \t ASCLL   \Uxxxx  \Uxxxxxxxx   \v
+  \ooo    \xhh
+11.raw_input()    comma   unicode
+12.pydoc raw_input (linux)     python -m pydoc raw_input(windows)
+   open, file, os, sys
+   syntaError: invalid syntax
+13.script, argument, argument variable, import, unpack, modules, libraries
+  ValueError: need more than 1 value to unpack,  int()
+14.Zork, Adventure, pormpt
+15.hardcode, , txt.read()   dot or period   function   'w+', 'r+', 'a+'
+16.close, readline, truncate, write(stuff)
+17.os.py,  exists, cat
+18.def, define, *args,  indent, use, run,call
+19.def  
+20.pydoc file,  +=,  seek
+21.return
