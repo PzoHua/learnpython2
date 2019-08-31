@@ -1,16 +1,114 @@
 #回顾学到的所有东西
-笨办法更简单
-  做每一道习题
-  一字不差地写出每一个程序
-  让程序运行起来
-------------------------------------------------------------------------
-0.准备工作
-    1). 写出习题的代码，在 Linux 下用 gedit，OSX 下用 TextWrangler，
-Windows 下用 Notepad++。
-	2). 运行你写的习题。
-	3). 修改错误的地方。 
-	4). 重复上述步骤。 其他的事情只会让你更困惑，所以还是坚持按计划进行吧。
-1.print
+符号：               	     名字：                作用：      
+Python         			Python                编程工具
+Zed Show      			Zed Show              《笨办法学Python》的作者
+Hard Way     			笨办法          	   书名一部分
+FAQ            			问题解答
+bug            			漏洞            	    存在的问题
+Mac OSX       		 	mac操作系统     	  管理mac系列计算机硬件与软件资源的计算机程序
+Microsoft Windows               视窗操作系统          管理计算机硬件与软件资源的图形界面操作系统
+Powershell                      终端行终端程序        微软公司开发的任务自动化和配置管理框
+Terminal                        电脑终端              与操作系统内核交互的用户界面
+Linux                           UNIX操作系统          管理UNIX计算机硬件与软件资源的软件
+bash                            Linux命令处理器       能执行用户直接输inux入的命令
+TextWrangler                    文本编辑器            Mac OSX下编程序的的应用软件
+Dock                            甲板                  指常用应用软件和文件夹快捷方式的任务栏
+gedit                           文本编辑器            Linux下编程序的应用软件
+Notepad++                       文本编辑器            Windows下编程序的应用软件
+CTRL-Z                          退出                  退出当前运行的Python环境
+cd                                                    进入一个文件目录
+dir / ls                                              列出子目录
+mkdir                                                 创建文件
+del                             删除
+.py                             Python文件            使Python能识别该文件
+print                           打印                  输出字符串
+^                               倒v(cart)             用来指出错误的位置
+SyntaxError                     语法错误              用来提示是什么样的错误
+ASCII                           美国信息交换标准代码  用于显示现代英语和其他西欧语言
+#-*-coding：utf-8-*-            字符编码              Python文件中不支持中文，输入这个代码就可以让python的源码中有中文。
+#                               octothorpe(pound)     注解，#后的不会识别为程序的内容
+invalid syntax                  语法错误              用来指出错误的位置
+directory                       文件或目录            
++                               plus 加号             加法运算
+-                               minus 减号            减法运算
+/                               slash 斜杆            除法或用来转义序列
+*                               asterisk 星号         乘法运算
+%                               percent 百分号        格式化控制字符串或除法取余数
+<                               less-than            小于号
+>                               greater-than         大于号
+<=                              less-than-equal      小于等于号
+>=                              greater-than-equal   大于等于号
+variable                        变量                 用来指代某个东西的名字（用来储存值）
+underscore                      下划线               在变量名中常用来作假想的空格，用来隔开单词
+=                               等于（single-equal） 将右边的值赋给左边的变量名
+==                              double-equal         检查左右两边是否相等
+formatstring                    格式化字符串         将信息展示给人的方法
+%                               格式控制工具         把右边的变量带到字符串中，并且把变量放在%所在的位置
+round()                         round函数            返回一个数值，按照指定的小数位数进行四舍五入运算
+string                          字符串               用来输出的东西，放在双引号（""）中
+()                              圆括号(parenthesis)  
+comma                           , 逗号               隔开变量，继续下一行等
+debug                           调试                 调试代码，让程序员能看清程序每一行的作用
+%r                              格式化控制字符       用来做debug比较好，会显示原始数据（raw data）
+%s                              格式化控制字符       用来向用户显示输出的
+TypeError                       类型错误             显示错误的类型
+True                                                 用来表示真的意义
+False                                                用来表示假的意义
+\n                              back-slash（反斜杠） 换行符
+"""                             triple-quotes（三引号）     用来输出多行字符串
+escape sequences                转义序列             用来打印特殊的字符串
+double back-slash               双反斜杠             用来打印一个反斜杠
+\'                              Single quote         打印单引号
+\"                              double quote         打印双引号
+\a                              ASCII Bell           响铃符
+\b                              ASCII Backspace      退格符
+\f                              ASCII Formfeed       禁止符
+\N{name}                       
+\r ASCII                                             回车符
+\t ASCII                                             水平制表符
+\uxxxx                                               值为16位十六进制值xxxx的字符
+\Uxxxxxxxx                                           值为32位进制的xxxx的字符
+\V                                                   垂直制表符
+\ooo                                                 值为八进制值ooo的字符
+\xhh                                                 值为十六进制数hh的字符
+input                           输入
+raw_input()                     输入                 在命令执行时让用户输入
+int(raw_input())                                     把用户输入的字符串用int()转换成整数
+unicod                          统一码               各编码字符转换
+pydoc 命令                                           Linux终端下返回python命令用法详情
+python -m pydoc 命令                                 windows终端下返回python命令用法详情
+argument                        参数                 调用某个脚本所用的变量
+script                          脚本                 写的.py文件
+import                          模组（modules）      导入文件
+libraries                       库                   文件库
+unpack                          解包                 把argv中的东西解包，所有的参数依次赋给左边的值
+prompt                          提示符>
+define                          定义
+open(filename)                  打开                 访问文件的位置
+hardcode                        死写
+dot(period)                     点
+file.read()                     阅读文件             配合open(filename)读取文件内容
+function                        函数                
+method                          方法
+file.close()                    关闭                 关闭指定的文件
+file object                                          类似磁带机或者DVD机
+quit()                          退出                 退出python运行环境，输入再敲回车键
+#到习题16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.print          打印            
 2.comment octothorpe or pound character
 3.plus+  minus- slash/  asterisk*  percent%  less-than<  greater-tha>
   less-than-equal<=  >=greater-than-equal
