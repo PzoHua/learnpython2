@@ -1,11 +1,11 @@
 #回顾学到的所有东西
-符号：               	     名字：                作用：      
-Python         			Python                编程工具
-Zed Show      			Zed Show              《笨办法学Python》的作者
-Hard Way     			笨办法          	   书名一部分
-FAQ            			问题解答
-bug            			漏洞            	    存在的问题
-Mac OSX       		 	mac操作系统     	  管理mac系列计算机硬件与软件资源的计算机程序
+符号：               	         名字：                作用：      
+Python         			            Python                编程工具
+Zed Show      			            Zed Show              《笨办法学Python》的作者
+Hard Way     			              笨办法          	     书名一部分
+FAQ            			            问题解答
+bug            			            漏洞            	    存在的问题
+Mac OSX       		 	            mac操作系统     	    管理mac系列计算机硬件与软件资源的计算机程序
 Microsoft Windows               视窗操作系统          管理计算机硬件与软件资源的图形界面操作系统
 Powershell                      终端行终端程序        微软公司开发的任务自动化和配置管理框
 Terminal                        电脑终端              与操作系统内核交互的用户界面
@@ -55,7 +55,7 @@ TypeError                       类型错误             显示错误的类型
 True                                                 用来表示真的意义
 False                                                用来表示假的意义
 \n                              back-slash（反斜杠） 换行符
-"""                             triple-quotes（三引号）     用来输出多行字符串
+"""                             triple-quotes        用来输出多行字符串
 escape sequences                转义序列             用来打印特殊的字符串
 double back-slash               双反斜杠             用来打印一个反斜杠
 \'                              Single quote         打印单引号
@@ -88,12 +88,28 @@ open(filename)                  打开                 访问文件的位置
 hardcode                        死写
 dot(period)                     点
 file.read()                     阅读文件             配合open(filename)读取文件内容
-function                        函数                
-method                          方法
+function                        函数                 组织好的，可重复使用的，用来实现单一，或相关功能的代码段
+method                          方法                 一种特殊的函数
 file.close()                    关闭                 关闭指定的文件
 file object                                          类似磁带机或者DVD机
 quit()                          退出                 退出python运行环境，输入再敲回车键
-#到习题16
+file.truncate                   清空文件
+file.write(stuff)                                    将stuff写入文件file
+append                          追加                 open（filename,'a+'）
+os.path.exists                                       如果路径path存在，返回True;如果路径path不存在，返回False
+abort()                         退出                 用于提前退出
+cat                             输出命令             通常用于观看某个文件的内容
+man                             手册(manual)         调阅命令帮助
+literal                         文法
+def                             定义函数             创建新的函数
+*args（asterisk args）          通配符               任意的参数变量
+indent                          缩进      
+use                             使用函数
+call                            调用函数
+run                             运行函数
+seek                            seek函数             移动文件的读取指针到指定位置
+=+                              简写x=x+y
+return                          返回                 把某个数值返回
 
 
 
@@ -108,33 +124,3 @@ quit()                          退出                 退出python运行环境�
 
 
 
-1.print          打印            
-2.comment octothorpe or pound character
-3.plus+  minus- slash/  asterisk*  percent%  less-than<  greater-tha>
-  less-than-equal<=  >=greater-than-equal
-4.variable
-5.# -*- coding: utf-8 -*-
-6.string parenthesis  raw data  debug
-  TypeError:not all arguments converted during string fromatting
-7.print "." * 10
-8.%r  %s  formatter  representation
-9.stuff  \n  """ 
-10.\n(back-slash n)  escape sequences   double back-slash   triple-quotes
-  \\(Backslash)  \'(Single quote) \"(Double quote)  \a(ASCLL Bell )
-  \b(ASCLL Backspace)  \f(ASCLL Formfeed)  \n(ASCLL Linefeed)
-  \N{{name}   \r ASCLL  \t ASCLL   \Uxxxx  \Uxxxxxxxx   \v
-  \ooo    \xhh
-11.raw_input()    comma   unicode
-12.pydoc raw_input (linux)     python -m pydoc raw_input(windows)
-   open, file, os, sys
-   syntaError: invalid syntax
-13.script, argument, argument variable, import, unpack, modules, libraries
-  ValueError: need more than 1 value to unpack,  int()
-14.Zork, Adventure, pormpt
-15.hardcode, , txt.read()   dot or period   function   'w+', 'r+', 'a+'
-16.close, readline, truncate, write(stuff)
-17.os.py,  exists, cat
-18.def, define, *args,  indent, use, run,call
-19.def  
-20.pydoc file,  +=,  seek
-21.return
