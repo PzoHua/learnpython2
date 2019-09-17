@@ -50,5 +50,5 @@ If语句告诉你的脚本：“如果这个布尔表达式为真，就运行接
 下面的代码区段将被运行。
 
 出处：《笨办法学Python》（第三版） 
-(英文版地址：https://learnpythonthehardway.org/book/)  Zed Shaw--著
+(英文版地址：https://learnpythonthehardway.org/book/)  Zed Shaw（著）
 
