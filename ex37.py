@@ -108,5 +108,5 @@ is not            比较对象
 in                序列类型成员判断        
 not in            序列类型成员判断
 """
-出处：《笨办法学Python》及https://www.jianshu.com/p/7b8b6fd7b76e
+出处：《笨办法学Python》习题37及https://www.jianshu.com/p/7b8b6fd7b76e
 
